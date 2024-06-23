@@ -59,7 +59,7 @@ def z_score(x):
     x_scaled = (x - x_mean) / x_sd
     return x_scaled
 
-# 5. Robust Scaling Robust Normalization
+# 5. Robust Scaling / Robust Normalization
 def robust_scaling(x):
     """Robust Scaling is a scaling method, which scales the data to have a median of 0 and adjusts for the spread of the data using
        the Interquatile Range (IQR). It is useful when dealing with data containing outliers or when the data does not follow a 
